@@ -1,0 +1,61 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 1rem;
+}
+
+.appContainer {
+	width: 75vw;
+	padding: 2rem;
+	margin: 0 auto;
+	background-color: #ddd;
+	border-top: 3px solid #f58220;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 767px) {
+	.appContainer {
+		width: 85vw;
+		padding: 1rem;
+		margin: 0 auto;
+		box-shadow: none;
+	}
+}
+
+h1 {
+	color: whitesmoke;
+}
+
+h1 span.orange {
+	color: #f58220;
+}
+
+.card {
+	padding: 1rem 2rem;
+	border-radius: 6px;
+	background-color: white;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card > div {
+	margin-bottom: 6px;
+}
+
+.card h2::first-letter {
+	color: #f58220;
+}
+
+.card span {
+	font-style: italic;
+}
+
+span.intro {
+	font-weight: 700;
+	display: block;
+}
